@@ -9,10 +9,10 @@ inputs:
 
 run:
   path: sh
-  args: [sample-app/ci/email.sh]
+  args: [email-resource/ci/email.sh]
 outputs:
   - name: email-out
 params:
-  file_to_hash: sample-app/LICENSE
+  file_to_hash: email-resource/LICENSE
   output_subject_file: generated-subject
   output_body_file: generated-body
