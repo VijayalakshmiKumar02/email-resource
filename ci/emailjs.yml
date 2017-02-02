@@ -12,7 +12,7 @@ inputs:
  
 
 run:
-  path: sh
+  path: js
   args: [ email-resource/ci/send-email.js]
  
     
