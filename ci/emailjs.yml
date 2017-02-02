@@ -12,11 +12,7 @@ inputs:
  
 
 run:
-  path: sh
-  args: 
-  - -exc
-  - |
-    mv /app/node_modules .
-    node email-resource/ci/send-email.js
+  path: email-resource/ci/send-email.js
+  
  
     
