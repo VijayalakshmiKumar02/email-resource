@@ -13,6 +13,10 @@ inputs:
 
 run:
   path: sh
-  args: [ email-resource/ci/send-email.js]
+  args: 
+  - -exc
+  - |
+    
+    node email-resource/ci/send-email.js
  
     
