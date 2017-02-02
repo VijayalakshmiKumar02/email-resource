@@ -17,4 +17,4 @@ run:
   - -exc
   - |
     mv /app/node_modules .
-    node email-resource/ci/scripts/send-email.js
+    node email-resource/ci/send-email.js
